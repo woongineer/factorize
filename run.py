@@ -15,6 +15,7 @@ if __name__ == '__main__':
     print(f"{n}:{result}")
 
     p, q, qc = factorize4(n)
+
     print(f"{n}:{p, q}")
 
     if qc != None:
